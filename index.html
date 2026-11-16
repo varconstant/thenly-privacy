@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy - Thenly</title>
+  <style>
+    :root {
+      --bg: #fafafa;
+      --card-bg: #ffffff;
+      --text: #212121;
+      --text-secondary: #616161;
+      --primary: #2e7d32;
+      --border: #e0e0e0;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #121212;
+        --card-bg: #1e1e1e;
+        --text: #f5f5f5;
+        --text-secondary: #b0b0b0;
+        --primary: #81c784;
+        --border: #333333;
+      }
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+      color: var(--text);
+      background-color: var(--bg);
+      margin: 0;
+      padding: 24px;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      background: var(--card-bg);
+      padding: 36px 40px;
+      border-radius: 12px;
+      border: 1px solid var(--border);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    }
+    h1 {
+      color: var(--primary);
+      margin-top: 0;
+      font-size: 2rem;
+    }
+    h2 {
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 8px;
+      margin-top: 28px;
+      font-size: 1.3rem;
+    }
+    .badge {
+      display: inline-block;
+      background: #e8f5e9;
+      color: #2e7d32;
+      padding: 4px 12px;
+      border-radius: 16px;
+      font-weight: 600;
+      font-size: 0.85rem;
+      margin-bottom: 16px;
+    }
+    @media (prefers-color-scheme: dark) {
+      .badge {
+        background: #1b3821;
+        color: #a5d6a7;
+      }
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 16px 0;
+      font-size: 0.95rem;
+    }
+    th, td {
+      text-align: left;
+      padding: 12px 14px;
+      border: 1px solid var(--border);
+    }
+    th {
+      background-color: rgba(0,0,0,0.03);
+    }
+    @media (prefers-color-scheme: dark) {
+      th {
+        background-color: rgba(255,255,255,0.05);
+      }
+    }
+    code {
+      font-family: ui-monospace, SFMono-Regular, Consolas, monospace;
+      font-size: 0.88em;
+      background: rgba(127,127,127,0.15);
+      padding: 2px 6px;
+      border-radius: 4px;
+    }
+    .meta {
+      color: var(--text-secondary);
+      font-size: 0.9rem;
+      margin-bottom: 24px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Privacy Policy for Thenly</h1>
+    <div class="meta">
+      <strong>Effective date:</strong> November 16, 2026 &bull;
+      <strong>Last updated:</strong> November 16, 2026 &bull;
+      <strong>App package:</strong> <code>app.thenly</code>
+    </div>
+
+    <span class="badge">&#10003; Works offline &bull; No data collected</span>
+
+    <p><strong>Thenly</strong> is a reminder and alarm app made by an independent developer ("we", "us"). This policy explains what the app does with your information. The short version: the app works entirely on your device, and we receive nothing.</p>
+
+    <h2>1. Summary</h2>
+    <ul>
+      <li>Thenly has no accounts, no sign-in, no ads, and no analytics.</li>
+      <li>Thenly does not request Internet access, so it cannot send anything to us or to anyone else.</li>
+      <li>We do not collect, receive, sell, or share any personal data.</li>
+      <li>Everything you enter stays in the app's private storage on your device, unless you use Android's own backup feature (see section 3).</li>
+    </ul>
+
+    <h2>2. What the app stores on your device</h2>
+    <p>To do its job, Thenly saves the reminders you create:</p>
+    <ul>
+      <li>the reminder's name (whatever text you type),</li>
+      <li>its duration, or its time of day and the weekdays it repeats on,</li>
+      <li>whether it is currently switched on, and when it is next due,</li>
+      <li>which alarm sound you picked for it (a reference to a sound already on your device, not a copy of the file).</li>
+    </ul>
+    <p>This is kept in the app's private storage, which other apps cannot read. We have no access to it.</p>
+    <p>Thenly does not collect or store your name, email address, phone number, contacts, location, photos, files, device identifiers, advertising ID, usage statistics, or crash reports.</p>
+
+    <h2>3. When reminder data can leave the app</h2>
+    <p>Thenly itself never transmits data. There are three situations, all controlled by Android and by you, in which reminder information is visible outside the app:</p>
+    <ul>
+      <li><strong>Android backup and device transfer.</strong> If backup is turned on in your Android settings, Android may include Thenly's saved reminders in your device backup (for example in your own Google account) and restore them on a new device. That backup is created, stored, and protected by Android and your backup provider under their terms, not by us, and we cannot see it. You can turn backup off in Android Settings.</li>
+      <li><strong>Notifications and the lock screen.</strong> When a reminder is due, its name is shown in a notification and on the ringing screen, including over the lock screen, so that you can see and stop it. Anyone who can see your screen at that moment can read it. You can change how notifications appear on the lock screen in Android Settings.</li>
+      <li><strong>The "next alarm" indicator.</strong> Android is told the time of your next due reminder so it can ring reliably, and Android may show that time (not the reminder's name) as the next alarm, for example on the lock screen or in the status bar.</li>
+    </ul>
+
+    <h2>4. Permissions and why they are needed</h2>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Permission</th>
+          <th>Technical name</th>
+          <th>Why Thenly needs it</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Notifications</strong></td>
+          <td><code>POST_NOTIFICATIONS</code></td>
+          <td>Shows the notification for a due reminder, with its Stop button.</td>
+        </tr>
+        <tr>
+          <td><strong>Exact alarms</strong></td>
+          <td><code>USE_EXACT_ALARM</code><br><code>SCHEDULE_EXACT_ALARM</code></td>
+          <td>Rings a reminder at the exact time you asked for, even when the phone is idle.</td>
+        </tr>
+        <tr>
+          <td><strong>Foreground service</strong></td>
+          <td><code>FOREGROUND_SERVICE</code><br><code>FOREGROUND_SERVICE_SYSTEM_EXEMPTED</code></td>
+          <td>Keeps the alarm sounding while the app is in the background, until you tap Stop.</td>
+        </tr>
+        <tr>
+          <td><strong>Full-screen alerts</strong></td>
+          <td><code>USE_FULL_SCREEN_INTENT</code></td>
+          <td>Shows the ringing screen with the Stop button when a reminder is due, including while the phone is locked.</td>
+        </tr>
+        <tr>
+          <td><strong>Run at startup</strong></td>
+          <td><code>RECEIVE_BOOT_COMPLETED</code></td>
+          <td>Puts your active reminders back after the phone restarts or the app is updated.</td>
+        </tr>
+        <tr>
+          <td><strong>Vibration</strong></td>
+          <td><code>VIBRATE</code></td>
+          <td>Vibrates while a reminder is ringing.</td>
+        </tr>
+        <tr>
+          <td><strong>Wake lock</strong></td>
+          <td><code>WAKE_LOCK</code></td>
+          <td>Keeps the phone awake while the alarm sound is playing, so it is not cut off.</td>
+        </tr>
+      </tbody>
+    </table>
+    <p>Thenly does not request Internet, location, contacts, camera, microphone, or storage permissions. None of the permissions above are used to collect information about you.</p>
+
+    <h2>5. Sharing and third parties</h2>
+    <p>We do not share your data with anyone, because we never have it. Thenly contains no advertising, analytics, or tracking libraries and no third-party services.</p>
+    <p>If you download Thenly from Google Play, Google collects its own information about installs and app stability under Google's privacy policy. That is separate from the app, and Thenly adds nothing to it.</p>
+
+    <h2>6. Keeping and deleting your data</h2>
+    <p>Your reminders stay on your device until you remove them. You can:</p>
+    <ul>
+      <li>delete any reminder inside the app,</li>
+      <li>erase everything by clearing the app's storage in Android Settings, or by uninstalling the app.</li>
+    </ul>
+    <p>If Android backup is on, copies in your backup are managed through your Android or Google account settings.</p>
+    <p>Because we hold no data about you, there is nothing for us to provide, correct, or delete on request. Any privacy rights you have under laws such as the GDPR or CCPA can be exercised directly on your own device as described above.</p>
+
+    <h2>7. Security</h2>
+    <p>Reminder data is kept in the app's private storage, protected by Android's app sandbox and by your device's own lock and encryption. Thenly does not send it over any network.</p>
+
+    <h2>8. Children</h2>
+    <p>Thenly is a general-purpose utility and is not directed at children. It does not collect personal information from anyone, including children.</p>
+
+    <h2>9. Changes to this policy</h2>
+    <p>If the app's behaviour changes in a way that affects this policy, we will update this page and change the "Last updated" date above before or at the time the change is released.</p>
+
+    <h2>10. Contact</h2>
+    <p>Questions about this policy or about privacy in Thenly: open an issue at <a href="https://github.com/varconstant/thenly-privacy/issues">github.com/varconstant/thenly-privacy/issues</a>, or use the developer contact email shown on Thenly's Google Play listing.</p>
+  </div>
+</body>
+</html>
